@@ -1,4 +1,4 @@
-# Turtlebot_Path_Planning
+
 # Turtlebot On-line path planner
 
 **This project belongs to the Universitat de Girona. It is forbidden to publish this project or any derivative work in any public repository.**
