@@ -27,10 +27,10 @@ To begin the robot's path planning and movement, first activate the node. Follow
 ## Example of use
 The images below show the planner finding a route in an unknown area where the destination is set. In the video demostration, we have tired to find a critical route to goal for the robot and its navigation sucessfully. The youtube link is (https://youtu.be/aAkRD6W3dAM?si=lZnX5viLX9D7CfiH)
 <div style="text-align: center">
-    <img src='../imgs/test.png' width='600'/>
+    <img src='https://github.com/syma-afsha/Turtlebot_Path_Planning/blob/main/turtlebot_online_path_planning/imgs/test.png' width='600'/>
 </div>
 <div style="text-align: center">
-    <img src='../imgs/test2.png' width='600'/>
+    <img src='https://github.com/syma-afsha/Turtlebot_Path_Planning/blob/main/turtlebot_online_path_planning/imgs/test2.png' width='600'/>
 </div>
 
 
