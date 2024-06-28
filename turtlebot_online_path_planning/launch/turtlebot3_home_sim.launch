@@ -1,0 +1,11 @@
+<launch>
+    <!--include file="$(find turtlebot3_gazebo)/launch/turtlebot3_stage_4.launch"/-->   
+    <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_house.launch"/>   
+    <node pkg="rviz" 
+          type="rviz" 
+          name="rviz" 
+          args="-d $(find turtlebot_online_path_planning)/config/rrt.rviz"/>
+    <node pkg="robot_state_publisher" 
+          type="robot_state_publisher" 
+          name="robot_state_publisher"/>
+</launch>

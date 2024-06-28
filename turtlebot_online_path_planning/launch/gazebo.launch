@@ -1,0 +1,7 @@
+<launch>
+    <param name="~frame_id" type="string" value="odom" />
+    <include file="$(find turtlebot_online_path_planning)/launch/turtlebot3_home_sim.launch" />
+    <node pkg="turtlebot_online_path_planning" type="laser_scan_to_point_cloud_node.py" name="laserscan_to_pointcloud"/>
+    <node pkg="octomap_server" type="octomap_server_node" name="octomap" output="screen"/>
+    <!--node pkg="octomap_server" type="octomap_server_node" args="$(find turtlebot_online_path_planning)/stage4.bt" name="octomap" output="screen"-->
+</launch>
