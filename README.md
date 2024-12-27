@@ -1,6 +1,13 @@
 
 # Turtlebot On-line path planner
 
+#### Group Member
+
+1.Syma Afsha
+
+2. Mir Mohibullah Sazid
+
+
 **This project belongs to the Universitat de Girona. It is forbidden to publish this project or any derivative work in any public repository.**
 
 ## How to run it:
